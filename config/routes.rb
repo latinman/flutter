@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  root "pages#index"
-  get "/home" => "pages#home"
+  root "pages#home"
+  get "/index" => "pages#index"
   get "/profile" => "pages#profile"
   get "/explore" => "pages#explore"
 
